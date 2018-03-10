@@ -34,7 +34,7 @@ h2 {
 }
 .introduction {
     font-size: 1.5em !important;
-    line-height: 25px;
+    line-height: 28px;
     margin-bottom: 20px;
 }
 h3 {
@@ -99,19 +99,19 @@ p .message {
 }
 @media(max-width: 475px) {
     h1 {
-        font-size: 2em;
+        font-size: 2em !important;
     }
     h2 {
-        font-size: 1.8em;
+        font-size: 1.8em !important;
     }
     h3 {
-        font-size: 1.3em;
+        font-size: 1.3em !important;
         margin-bottom: 15px;
     }
     .introduction {
-        font-size: 1em;
+        font-size: 1em !important;
         text-align: center;
-        line-height: 12px;
+        line-height: 15px;
     }
     button {
         width: 60px;
@@ -122,11 +122,11 @@ p .message {
         line-height: 12px;
     }
     .inputs {
-        font-size: .6em;
+        font-size: .55em;
         width: 100px;
     }
     input[type='radio'] {
-        margin-left: 25px;
+        margin-left: 15px;
     }
     p .message {
         font-size: .5em;
