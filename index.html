@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>Quiz Game</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<header class="row">
+			<div class="col">
+				<h1>Quiz Game</h1>
+			</div>
+		</header><!-- /header -->
+		<main class="row contenedor p-3 ">
+			<div class="col">
+				<div class="row question">
+					<div class="col-12">
+						<h3 id="title"></h3>
+					</div>
+					<div class="col-12">
+						<p class="redact" id="redact"></p>
+					</div>
+					<div class="row p-0">
+						<div class=" col-xs-11 col-8  p-0 inputs">
+							<input id="answer1" name="select" class="selects" type="radio" value="1"><label class="select" for="answer1"><span id="option1"></span></label><br>
+							<input id="answer2" name="select" class="selects" type="radio" value="2"><label class="select" for="answer2"><span id="option2"></span></label><br>
+							<input id="answer3" name="select" class="selects" type="radio" value="3"><label class="select" for="answer3"><span id="option3"></span></label><br>
+							<input id="answer4" name="select" class="selects" type="radio" value="4"><label class="select" for="answer4"><span id="option4"></span></label>
+						</div>
+						<div class=" col-4 col-xs-1 p-0 images"><img alt="correct" class="image correct" id="correct" src ="https://www.matrixinternet.ie/wp-content/uploads/2014/09/Check-300x300.png"> <img alt="correct" class="image wrong" id="wrong" src="https://i2.wp.com/mettagiri.com/wp-content/uploads/2017/01/cancel-1174809_1280.png?fit=728%2C728&ssl=1"></div>
+						<div class="col-12">
+							<p id="message" class="message"></p>
+						</div>
+						<div class="col-6">
+							<button class=" btn btn-danger mt-4 check" id="check">Check!</button>
+						</div>
+						<div class="col-6">
+							<button class=" btn btn-dark mt-4  next" id="next" class="result">Next!</button>
+						</div>
+						
+					</div>
+				</div>
+
+				<div class="col result" id="result">
+							
+                            <h2>Thanks For play</h2> 
+                            <p id="score" class="mb-3"></p>
+
+                            <button class=" btn btn-success mt-4  next" id="again" class="result">Play Again!</button>
+
+						</div>
+				<div id="first" class="row">
+					<div class="col">
+					<h2>Welcome to Quiz Game</h2>
+					<p class="introduction">The game consists of answering the questions that will appear as you answer, once you have finished answering, you will get your results</p>
+					<h3>ARE YOU READY?</h3><button class="btn btn-primary btn-large" id="start">Start!</button>
+				</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="js/index.js">
+	</script>
+</body>
+</html>
