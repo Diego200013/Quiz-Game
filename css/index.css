@@ -135,4 +135,10 @@ p .message {
         max-width: 50px;
         margin-top: 30px;
     }
+    .btn-group-lg>.btn, .btn-lg{
+
+        padding: 0.9em 0.9em;
+        font-size: 0.9rem;
+        width: 80px;
+    }
 }  
